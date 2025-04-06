@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f41ca;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #033c81, #03ac58);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 1.5em;
+        }
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            background: rgb(146, 22, 203);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(221, 217, 217, 0.1);
+             color: aliceblue;
+        }
+        img {
+            width:50%;
+            height:auto;
+            border-radius: 10%;
+            display: block;
+            margin: 0 auto;
+        }
+        .project img {
+            max-width: 0cap;
+        }
+        .button {
+            display: inline-block;
+            background: #3dba3b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #2537fc;
+        }
+        footer {
+            background: #222;
+            color: rgb(66, 196, 199);
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Badani Pravallika</h1>
+        <p>Web Developer | Designer</p>
+    </header>
+    <section class="About">
+        <h2>About Me</h2>
+        <img src="C:\Users\B.PRAVALIKA\OneDrive\Pictures\Camera Roll\photo.jpg" alt="Image" >
+        <h4>Passionate,self motivated and hardworking web developer.</h4>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <h4>SRKR LOST AND FOUND HUB</h4>
+            <img src="C:\Users\B.PRAVALIKA\OneDrive\Pictures\Saved Pictures\project.jfif"alt="Image" class="project img">
+            <p>A description of your project is a website that we can post a thing we are lost and  address if our thing is found to anyone.</p>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="C:\Users\B.PRAVALIKA\OneDrive\Documents\Resume"class="button" target="_blank">Download My Resume</a>
+    </section>
+    
+    <section id="contact information">
+        <h2>Contact</h2>
+        <p>Email: pravallikabadani@gmail.com</p>
+        <p>Phone: 6302949675</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Badani Pravallika. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Welcome to my portfolio website!");
+        });
+    </script>
+</body>
+</html>
